@@ -13,5 +13,10 @@ public class TestMain extends TestCase{
 		assertEquals(3, rory.getAddNum(2, 1));
 		System.out.println("testone complete");
 	}
-
+	
+	public void testThree() {
+		Work rory= new Work();
+		assertEquals(2, rory.getAddNum(1, 1));
+		System.out.println("testone complete");
+	}
 }
