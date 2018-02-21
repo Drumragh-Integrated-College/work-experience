@@ -13,4 +13,8 @@ public class Work {
 	public static int getMultiplyNum(int one, int two) {
 		return one * two;
 	}
+	
+	public static int getDivideNum(int one, int two) {
+		return one / two;
+	}
 }

@@ -22,5 +22,23 @@ public class TestMain2 extends TestCase{
 		assertEquals(5899410, Work.getMultiplyNum(1062,5555));
 	}
 
+	
+	
+	
 
+	public void testMultiplefive() {
+		assertEquals(300, Work.getMultiplyNum(60,5));
+	}
+
+	public void testMultiplesix() {
+		assertEquals(30, Work.getMultiplyNum(6,5));
+	}
+	
+	public void testMultipleseven() {
+		assertEquals(-300, Work.getMultiplyNum(-10,30));
+	}
 }
+
+
+
+
