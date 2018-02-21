@@ -1,6 +1,7 @@
 import static org.junit.Assert.assertNotEquals;
 
 import junit.framework.TestCase;
+import work.experience.Work;
 
 public class TestMain extends TestCase {
 

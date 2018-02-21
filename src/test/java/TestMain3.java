@@ -1,4 +1,5 @@
 	import junit.framework.TestCase;
+import work.experience.Work;
 
 public class TestMain3 extends TestCase{
 
