@@ -1,4 +1,4 @@
-import junit.framework.TestCase;
+	import junit.framework.TestCase;
 
 public class TestMain3 extends TestCase{
 
@@ -15,9 +15,6 @@ public class TestMain3 extends TestCase{
 	public void testDividethree() {
 		assertEquals(35, Work.getDivideNum(700,20));
 	}
-	
-	
-
 	
 	public void testDivideone1() {
 		assertEquals(5, Work.getDivideNum(10,2));
