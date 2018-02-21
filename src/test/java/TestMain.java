@@ -1,3 +1,4 @@
+
 import static org.junit.Assert.assertNotEquals;
 
 import junit.framework.TestCase;
@@ -21,4 +22,10 @@ public class TestMain extends TestCase{
 		assertNotEquals(3, rory.getAddNum(768, 357));
 		System.out.println("testone complete");
     }
+
+	public void testThree() {
+		Work rory= new Work();
+		assertEquals(2, rory.getAddNum(1, 1));
+		System.out.println("testone complete");
+	}
 }

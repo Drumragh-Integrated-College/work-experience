@@ -14,6 +14,10 @@ public class Work {
 		return one * two;
 	}
 	
+	public static double getMultiplyDecimalNum(double one, int two) {
+		return one * two;
+	}
+	
 	public static int getDivideNum(int one, int two) {
 		return one / two;
 	}
