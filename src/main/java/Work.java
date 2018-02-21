@@ -13,7 +13,23 @@ public class Work {
 	public static int getMultiplyNum(int one, int two) {
 		return one * two;
 	}
-	public static int getDivideNum(double d, int two) {
+
+	public static int getAddNum1(int one, int two) {
+		return one + two;
+	}
+	
+	public static int getMultiplyNum1(int one, int two) {
+		return one * two;
+	}
+	public static double getDivideNum(double d, int two) {
 		return d / two;
+	}
+
+	public static double getMultiplyDecimalNum(double one, int two) {
+		return one * two;
+	}
+	
+	public static int getDivideNum(int one, int two) {
+		return one / two;
 	}
 }

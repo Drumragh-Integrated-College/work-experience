@@ -1,14 +1,17 @@
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+
 import junit.framework.TestCase;
 
 public class TestMain extends TestCase {
 
-	public void testOne() {
+	public void testOne1() {
 		Work rory = new Work();
 		assertEquals(2, rory.getAddNum(1, 1));
 		System.out.println("testone complete");
 	}
 
-	public void testEva() {
+	public void testEva1() {
 		Work rory = new Work();
 		assertEquals(3, rory.getAddNum(2, 1));
 		System.out.println("testone complete");
@@ -54,4 +57,29 @@ public class TestMain extends TestCase {
 public void testApple3() {
 	Work rory = new Work();
 	assertEquals(30.25, rory.getDivideNum(60.5, 2));
+}
+
+	public void testOne() {
+		Work rory= new Work();
+		assertEquals(2, rory.getAddNum(1, 1));
+		System.out.println("testone complete");
+	}
+	
+	public void testEva() {
+		Work rory= new Work();
+		assertEquals(3, rory.getAddNum(2, 1));
+		System.out.println("testone complete");
+	}
+	
+	public void testrose() {
+		Work rory= new Work();
+		assertNotEquals(3, rory.getAddNum(768, 357));
+		System.out.println("testone complete");
+    }
+
+	public void testThree() {
+		Work rory= new Work();
+		assertEquals(2, rory.getAddNum(1, 1));
+		System.out.println("testone complete");
+	}
 }
